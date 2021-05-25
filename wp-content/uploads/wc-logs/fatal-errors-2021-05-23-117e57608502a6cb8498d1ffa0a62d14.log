@@ -1,0 +1,4 @@
+2021-05-23T17:30:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-05-23T17:53:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+

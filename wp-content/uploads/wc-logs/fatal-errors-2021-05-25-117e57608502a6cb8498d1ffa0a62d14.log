@@ -1,0 +1,10 @@
+2021-05-25T17:31:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-content\plugins\elementskit-lite\widgets\image-accordion\image-accordion-handler.php on line 4
+
+2021-05-25T17:33:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-admin\includes\post.php on line 2479
+
+2021-05-25T17:35:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-includes\widgets\class-wp-widget-text.php on line 570
+
+2021-05-25T17:35:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-content\plugins\smart-slider-3\Nextend\Framework\Localization\Functions.php on line 33
+
+2021-05-25T17:38:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\instagram.php on line 9
+

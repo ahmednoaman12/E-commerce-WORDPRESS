@@ -1,0 +1,12 @@
+<div class="woostify-footer-text-widget">
+	<h2 class="woostify-footer-site-title">woostify</h2>
+	
+	<p>You can easily edit this paragraph to talk about your brand as well as your products to your potential customers.</p>
+
+	<ul class="woostify-footer-social-icon woostify-social-icon">
+		<li><a href="//facebook.com/woostify"></a></li>
+		<li><a href="//twitter.com/woostify"></a></li>
+		<li><a href="//pinterest.com/woostify"></a></li>
+		<li><a href="//youtube.com/woostify"></a></li>
+	</ul>
+</div>

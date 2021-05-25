@@ -1,0 +1,4 @@
+2021-05-24T14:51:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-content\plugins\payment-gateway-stripe-and-woocommerce-integration\includes\log.php on line 56
+
+2021-05-24T14:52:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ReviewsByCategory.php on line 31
+

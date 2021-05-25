@@ -1,0 +1,213 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background-color:#f2f2f2;
+	background-position:center center;
+	background-repeat:none;
+	
+	background-image:-moz-radial-gradient(circle closest-corner, #f2f2f2 0%, #e3e3e3 100%);
+	background-image:-o-radial-gradient(circle closest-corner, #f2f2f2 0%, #e3e3e3 100%);
+	background-image:-webkit-radial-gradient(circle closest-corner, #f2f2f2 0%, #e3e3e3 100%);
+	background-image:radial-gradient(circle closest-corner, #f2f2f2 0%, #e3e3e3 100%);
+}
+
+body{
+	background-color:transparent !important;
+}
+
+a, a:visited {
+	outline:none;
+	color:#1c4f64;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	The Chart
+-----------------------------*/
+
+
+#placeholder {
+	width: 580px;
+	border: 1px solid #CDCDCD;
+	padding: 20px;
+	border-radius: 3px;
+	background-color: white;
+	margin-bottom: 15px;
+	position: relative;
+	box-shadow: 1px 1px 2px #EEE, 0 -3px 5px #F3F3F3 inset;
+}
+
+#content {
+	margin: 0px auto;
+	padding: 45px;
+	position: relative;
+	width: 590px;
+}
+#chart{
+	width: 570px;
+	min-height: 280px !important;
+	}
+	#eh_stripe_overview{
+	   min-height: 300px;
+	}
+
+/* #chart{
+	width: 570px;
+	height: 400px;
+} */
+
+.ex-tooltip{
+	position: absolute;
+	background: #EEE;
+	border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+	border-collapse: separate;
+	display: none;
+}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+footer h2{
+	color: #EEEEEE;
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+	line-height: 1.4;
+	margin-top: 0;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#888;
+}
+
+footer a.tzine,a.tzine:visited{
+	color: #999999;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+footer a i{
+	color:#ccc;
+	font-style: normal;
+}
+
+footer a i b{
+	color:#c92020;
+	font-weight: normal;
+}
+
+/*----------------------------
+	General Styles
+-----------------------------*/
+
+mark.on-hold{
+	color: #94660c;
+    background: #f8dda7;
+}
+mark.processing{
+	background: #c6e1c6;
+    color: #5b841b;
+} 
+mark.refunded{
+	background: #e5e5e5;
+    color: #777;
+} 
+mark.completed{
+	background: #c8d7e1;
+    color: #2e4453;
+}
+mark {
+   
+	display: inline-block; 
+	line-height: 2.5em; 
+	border-radius: 4px; 
+	border-bottom: 1px solid rgba(0,0,0,.05); 
+	width:60%
+}
+
+mark span{
+	margin: 0 1em;
+}
+.nav-tab-wrapper{
+	margin-top: 20px;
+	width: 97%;
+	margin-left:1%;
+}
+.nav-tab-active{
+	background: #ffffff;
+}
+.eh_graph_title_class{
+	padding-top:15px;
+}
+#eh-graph-title{
+	font-weight: bold;
+	font-size: 15px;
+}
+.eh_inptgrp{
+	margin: 15px  0px;
+}
+.eh_date_range_picker{
+	padding:10px 0px;
+}
+.daterangepicker{
+	box-shadow: 2px 2px 5px 2px #bbb;
+}
+.daterangepicker .drp-selected {
+	margin-top: 9px;
+}
+.daterangepicker .btn-primary{
+	background: #347ebd;
+	color: white;
+}
+.applyBtn{
+	text-shadow: none;
+}

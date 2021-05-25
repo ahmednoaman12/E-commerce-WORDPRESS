@@ -1,0 +1,105 @@
+.eh_mainform{ 
+    float:left; 
+    width:98%; 
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+.eh-nav-tab-active{
+    background-color: #fff;
+}
+.eh-tab-content{
+    width:100%;
+    height:auto; 
+}
+.eh_sub_tab{ 
+    display:inline-block; 
+    margin:0px;
+}
+.eh_sub_tab_content{
+    display: none; 
+    float:left; 
+    width:100%; 
+    height:auto; 
+}
+.eh-help-links li{
+    padding:40px; 
+    margin:20px; 
+    display: inline-block; 
+    text-align: center; 
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.1); 
+    width: 185px; height: 245px;
+}
+.eh-help-links li a{ 
+    text-decoration: none; 
+    height: 28px !important; 
+    margin-top: 20px; 
+}
+.eh_mainform .wc-admin-breadcrumb{
+    display:none;
+}
+.eh_mainform .woocommerce-help-tip{
+    float: right;
+}
+.eh_mainform input[type=text] {
+    width : 25em !important;
+}
+.eh_mainform input[type=password] {
+    width : 25em !important;
+}
+
+.eh_mainform  .select2-container--default{
+    width:25em !important;
+}
+.eh_settings_left{
+    width: 73%;
+    float: left;
+    margin-bottom: 25px;
+}
+.eh_settings_right{
+    width: 23%;
+    float: left;
+    padding-left: 25px;
+}
+.eh-admin-notice-table a{
+    font-size:13px;
+    color: #0073aa;
+    text-decoration: underline;
+}
+.eh-admin-notice-table span{
+    font-size:13px;
+}
+.eh-admin-notice-table{
+    margin-left: 20px;
+}
+.eh_msg_div{ 
+    position:fixed; 
+    width:300px; 
+    padding:15px; 
+    color:#fff; 
+    right:60px; 
+    top:0px; 
+    opacity:0; 
+    box-shadow:0px 2px 2px #333; 
+    border-radius:5px; 
+    z-index:1000000000;
+}
+
+.eh_mainform .form-table th {
+    width : 260px;
+}
+.wt_info_div {
+    background: #d9edf7;
+    border: solid 1px #bce8f1;
+    padding-left: 11px;
+    width: 98%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.wt_notice_bar_style{
+    margin-top: 0px; 
+    margin-left: 15px; 
+    list-style: disc;
+
+}

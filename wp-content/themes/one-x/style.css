@@ -1,0 +1,71 @@
+/*
+ Theme Name:   One X
+ Theme URI:    https://themehunk.com/product/one-x-one-page-wordpress-theme/
+ Description:  One X is a child theme of oneline-lite, This theme is suitable for creating almost any type of website, we have added cloud effect in this theme to make unique. We offer full support to our users here is link: https://themehunk.com/support/
+ Author:       ThemeHunk Team
+ Author URI:   https://www.themehunk.com/
+ Template:     oneline-lite
+ Version:      1.0.5
+ Requires at least: 4.5
+ Tested up to: 5.5.1
+ Requires PHP: 5.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:one-column, two-columns, grid-layout, right-sidebar, custom-colors, custom-menu, theme-options, sticky-post, translation-ready, footer-widgets, blog  
+ Text Domain: one-x
+*/
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+.svg-bottom-container{
+    -webkit-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+svg{
+    height: 130px;
+	
+}
+.service-icon1 a:before, .service-icon2 a:before, .service-icon3 a:before, .service-icon4 a:before{
+    color: #e91e63;
+}
+.flexslider .caption-container {
+    opacity: 1!important;
+}
+section#ribbon{
+padding-top:200px;
+padding-bottom:200px;    
+}
+.page-template-default svg{
+display:none;
+}
+.home svg{
+	display:block;
+    width: 100%;
+}
+.single svg{
+display:none;
+}
+.content-wrapper, .sidebar-wrapper{
+margin-top:80px!important;
+}
+
+.svg-top-container.elementor-shape svg,
+.svg-bottom-container.elementor-shape svg{
+height:150px;
+width:100%;
+}
+.svg-bottom-container.elementor-shape{
+  height:149px;  
+}
+.svg-top-container.elementor-shape{
+margin-top:-149px!important;
+}
+@media screen and (min-width: 1025px){
+#slider-div .caption-container h2.title{
+font-size:60px;
+}
+}

@@ -1,0 +1,952 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stripe Payment Gateway for WooCommerce ( Basic )\n"
+"POT-Creation-Date: 2020-01-27 15:18+0530\n"
+"PO-Revision-Date: 2020-01-27 15:21+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: payment-gateway-stripe-and-woocommerce-integration.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/admin/class-stripe-admin-handler.php:39
+#: includes/admin/class-stripe-admin-handler.php:40
+#: includes/admin/class-stripe-admin-handler.php:88
+msgid "WebToffee Stripe"
+msgstr "WebToffee Stripe"
+
+#: includes/admin/class-stripe-admin-handler.php:51
+#: includes/admin/class-stripe-admin-handler.php:52
+#: includes/admin/class-stripe-admin-handler.php:100
+msgid "Stripe Alipay"
+msgstr "Stripe Alipay"
+
+#: includes/admin/class-stripe-admin-handler.php:59
+#: includes/admin/class-stripe-admin-handler.php:60
+#: includes/admin/class-stripe-admin-handler.php:101
+#: includes/class-stripe-checkout.php:72
+msgid "Stripe Checkout"
+msgstr "Paiement Stripe"
+
+#: includes/admin/class-stripe-admin-handler.php:72
+#: includes/admin/class-stripe-admin-handler.php:73
+msgid "Stripe Overview"
+msgstr "Présentation de Stripe"
+
+#: includes/admin/class-stripe-admin-handler.php:99
+#: includes/eh-stripe-settings-page.php:27
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/admin/class-stripe-admin-handler.php:159
+#: includes/admin/class-stripe-admin-handler.php:188
+#: includes/admin/class-stripe-admin-handler.php:217
+msgid "Save changes"
+msgstr "Enregistrer les changements"
+
+#: includes/class-alipay-payment-handler.php:61
+msgid "Unable to process this payment, please try again."
+msgstr "Impossible de traiter ce paiement, veuillez réessayer."
+
+#: includes/class-alipay-payment-handler.php:87
+#, php-format
+msgid "Stripe payment failed: %s"
+msgstr "Le paiement Stripe a échoué : %s"
+
+#: includes/class-alipay-payment-handler.php:108
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Commande %2$s"
+
+#: includes/class-alipay-payment-handler.php:124
+msgid "customer_name"
+msgstr "Nom du client"
+
+#: includes/class-alipay-payment-handler.php:125
+msgid "customer_email"
+msgstr "email du client."
+
+#: includes/class-alipay-payment-handler.php:172
+#: includes/class-alipay-payment-handler.php:178
+#: includes/class-stripe-api.php:704 includes/class-stripe-checkout.php:407
+msgid "Payment Status : "
+msgstr "Statut du paiement"
+
+#: includes/class-alipay-payment-handler.php:172
+#: includes/class-alipay-payment-handler.php:178
+#: includes/class-stripe-api.php:704 includes/class-stripe-api.php:1086
+#: includes/class-stripe-checkout.php:407
+#: includes/stripe-overview/class-stripe-overview.php:131
+msgid "Source : "
+msgstr "La source :"
+
+#: includes/class-alipay-payment-handler.php:172
+#: includes/class-alipay-payment-handler.php:178
+#: includes/class-stripe-api.php:704 includes/class-stripe-checkout.php:407
+msgid "Charge Status :"
+msgstr "Statut de charge:"
+
+#: includes/class-alipay-payment-handler.php:188
+#, php-format
+msgid ""
+"Stripe alipay order meta (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization."
+msgstr ""
+"Méta de commande alipay Stripe (ID de charge: %s). Traitez l'ordre pour "
+"prendre le paiement ou annulez pour retirer la pré-autorisation."
+
+#: includes/class-eh-stripe-uninstall-feedback.php:20
+msgid "Used it successfully. Don't need anymore."
+msgstr "Utilisé avec succès. Je n’en ai plus besoin."
+
+#: includes/class-eh-stripe-uninstall-feedback.php:22
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Je l’ai utilisé avec succès et je n’en ai plus besoin"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:26
+msgid "I couldn't understand how to make it work"
+msgstr "Je n’arrive pas à comprendre comment le faire fonctionner"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:28
+msgid "Would you like us to assist you?"
+msgstr "Voulez-vous que nous vous assistions ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:32
+msgid "I found a better plugin"
+msgstr "J'ai trouvé un meilleur plugin"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:34
+msgid "Which plugin?"
+msgstr "Avec qu’elle extension ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:38
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"L'extension est super, mais j'ai besoin d'une fonctionnalité spécifique que "
+"vous n'avez pas"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:40
+msgid "Could you tell us more about that feature?"
+msgstr "Pourriez-vous nous en dire plus sur cette fonctionnalité ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:44
+msgid "The plugin is not working"
+msgstr "Le plugin ne fonctionne pas"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:46
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Pourriez-vous nous en dire un peu plus ce qui ne fonctionne pas ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:50
+msgid "It's not what I was looking for"
+msgstr "Ce n'est pas ce que je cherchais"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:52
+#: includes/class-eh-stripe-uninstall-feedback.php:64
+msgid "Could you tell us a bit more?"
+msgstr "Pourriez-vous nous en dire un peu plus ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:56
+msgid "The plugin didn't work as expected"
+msgstr "L’extension n’a pas fonctionné comme prévu"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:58
+msgid "What did you expect?"
+msgstr "A quoi vous attendiez-vous ?"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:62
+msgid "Other"
+msgstr "Autre"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:82
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Si vous avez un moment, faites nous savoir pourquoi vous désactivez:"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:94
+msgid "I rather wouldn't say"
+msgstr "Je préfère ne pas le dire"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:97
+msgid "Contact Support"
+msgstr "Contacter le support"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:98
+msgid "Submit & Deactivate"
+msgstr "Soumettre & désactiver"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:99
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:178
+msgid "Deactivate and leave a review"
+msgstr "Désactiver et laisser un commentaire"
+
+#: includes/class-eh-stripe-uninstall-feedback.php:180
+msgid "Let our support team help you"
+msgstr "Laissez notre équipe d'assistance vous aider"
+
+#: includes/class-gateway-stripe-alipay.php:20
+#: includes/class-gateway-stripe-alipay.php:69
+msgid "Alipay"
+msgstr "Alipay"
+
+#: includes/class-gateway-stripe-alipay.php:21
+#, php-format
+msgid ""
+"All other WebToffee Stripe general settings can be adjusted <a href=\"%s\" "
+">here</a>."
+msgstr ""
+"Tous les autres paramètres généraux de WebToffee Stripe peuvent être "
+"modifiés <a href=\"%s\" >ici</a> ."
+
+#: includes/class-gateway-stripe-alipay.php:60
+#: includes/class-stripe-checkout.php:63
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: includes/class-gateway-stripe-alipay.php:61
+msgid "Enable Stripe Alipay Payment"
+msgstr "Activer le paiement Stripe Alipay"
+
+#: includes/class-gateway-stripe-alipay.php:66
+#: includes/class-stripe-checkout.php:69
+#: includes/eh-stripe-settings-page.php:24
+msgid "Title"
+msgstr "Titre"
+
+#: includes/class-gateway-stripe-alipay.php:68
+#: includes/class-stripe-checkout.php:71
+#: includes/eh-stripe-settings-page.php:26
+msgid "Enter the title of the checkout which the user can see."
+msgstr "Entrez le titre de la caisse que l'utilisateur peut voir."
+
+#: includes/class-gateway-stripe-alipay.php:73
+#: includes/class-stripe-checkout.php:76
+#: includes/eh-stripe-settings-page.php:31
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-gateway-stripe-alipay.php:76
+#: includes/class-stripe-checkout.php:79
+#: includes/eh-stripe-settings-page.php:34
+msgid "Description which the user sees during checkout."
+msgstr "Description que l'utilisateur voit lors de la commande."
+
+#: includes/class-gateway-stripe-alipay.php:77
+msgid "Secure payment via Alipay."
+msgstr "Paiement sécurisé via Alipay."
+
+#: includes/class-gateway-stripe-alipay.php:82
+#: includes/class-stripe-checkout.php:85
+#: includes/eh-stripe-settings-page.php:39
+msgid "Order Button Text"
+msgstr "Texte du Bouton de commande"
+
+#: includes/class-gateway-stripe-alipay.php:84
+#: includes/class-stripe-checkout.php:87
+#: includes/eh-stripe-settings-page.php:41
+msgid "Enter the Order Button Text of the payment page."
+msgstr "Entrez le texte du bouton de commande de la page de paiement."
+
+#: includes/class-gateway-stripe-alipay.php:85
+msgid "Pay via Alipay"
+msgstr "Payez via Alipay"
+
+#: includes/class-gateway-stripe-alipay.php:296
+#: includes/class-gateway-stripe-alipay.php:301
+#: includes/class-gateway-stripe-alipay.php:307
+#: includes/class-stripe-api.php:770 includes/class-stripe-api.php:775
+#: includes/class-stripe-api.php:781 includes/class-stripe-checkout.php:647
+#: includes/class-stripe-checkout.php:652
+#: includes/class-stripe-checkout.php:658
+#: includes/stripe-overview/class-stripe-overview.php:80
+#: includes/stripe-overview/class-stripe-overview.php:86
+#: includes/stripe-overview/class-stripe-overview.php:92
+#: includes/stripe-overview/class-stripe-overview.php:220
+#: includes/stripe-overview/class-stripe-overview.php:226
+#: includes/stripe-overview/class-stripe-overview.php:232
+msgid "Reason : "
+msgstr "Raison "
+
+#: includes/class-gateway-stripe-alipay.php:296
+#: includes/class-gateway-stripe-alipay.php:301
+#: includes/class-gateway-stripe-alipay.php:307
+#: includes/class-stripe-api.php:770 includes/class-stripe-api.php:775
+#: includes/class-stripe-api.php:781 includes/class-stripe-checkout.php:647
+#: includes/class-stripe-checkout.php:652
+#: includes/class-stripe-checkout.php:658
+#: includes/stripe-overview/class-stripe-overview.php:80
+#: includes/stripe-overview/class-stripe-overview.php:86
+#: includes/stripe-overview/class-stripe-overview.php:92
+#: includes/stripe-overview/class-stripe-overview.php:220
+#: includes/stripe-overview/class-stripe-overview.php:226
+#: includes/stripe-overview/class-stripe-overview.php:232
+msgid "Amount : "
+msgstr "Montant: "
+
+#: includes/class-gateway-stripe-alipay.php:296
+#: includes/class-stripe-checkout.php:647
+msgid "Status : refunded "
+msgstr "Statut: remboursé"
+
+#: includes/class-gateway-stripe-alipay.php:296
+#: includes/class-stripe-api.php:770 includes/class-stripe-api.php:1086
+#: includes/class-stripe-checkout.php:647
+#: includes/stripe-overview/class-stripe-overview.php:80
+#: includes/stripe-overview/class-stripe-overview.php:131
+#: includes/stripe-overview/class-stripe-overview.php:220
+msgid "Transaction ID : "
+msgstr "Identifiant de transaction :"
+
+#: includes/class-gateway-stripe-alipay.php:301
+#: includes/class-stripe-api.php:775 includes/class-stripe-checkout.php:652
+#: includes/stripe-overview/class-stripe-overview.php:86
+#: includes/stripe-overview/class-stripe-overview.php:226
+msgid " Status : Failed "
+msgstr "Statut: échoué"
+
+#: includes/class-gateway-stripe-alipay.php:307
+#: includes/class-stripe-api.php:770 includes/class-stripe-api.php:781
+#: includes/class-stripe-checkout.php:658
+#: includes/stripe-overview/class-stripe-overview.php:80
+#: includes/stripe-overview/class-stripe-overview.php:92
+#: includes/stripe-overview/class-stripe-overview.php:220
+#: includes/stripe-overview/class-stripe-overview.php:232
+msgid "Status : "
+msgstr "Statut de remboursement: Terminé <br> ["
+
+#: includes/class-gateway-stripe-alipay.php:311
+#: includes/class-stripe-api.php:785 includes/class-stripe-checkout.php:662
+msgid "Uncaptured Amount cannot be refunded"
+msgstr "Le montant non capturé ne peut pas être remboursé"
+
+#: includes/class-stripe-api.php:11 includes/eh-stripe-settings-page.php:11
+msgid "Stripe Payment"
+msgstr "Paiement par Stripe"
+
+#: includes/class-stripe-api.php:43
+msgid ""
+"Accept credit card payments directly on your website via WebToffee Stripe "
+"payment gateway."
+msgstr ""
+"Acceptez les paiements par carte de crédit directement sur votre site Web "
+"via la passerelle de paiement WebToffee Stripe."
+
+#: includes/class-stripe-api.php:45
+msgid "Stripe provides payment services over 25 countries"
+msgstr "Stripe fournit des services de paiement dans plus de 25 pays"
+
+#: includes/class-stripe-api.php:45
+msgid "Available Countries"
+msgstr "Pays disponibles"
+
+#: includes/class-stripe-api.php:45
+msgid "If you don't have Stripe Account, get it for free easily "
+msgstr ""
+"Si vous n'avez pas de compte Stripe, obtenez-le gratuitement facilement"
+
+#: includes/class-stripe-api.php:45
+msgid "Register Now"
+msgstr "Inscrivez-vous maintenant"
+
+#: includes/class-stripe-api.php:45
+msgid "Get your Access Keys and put it here "
+msgstr "Obtenez vos clés d'accès et mettez-les ici"
+
+#: includes/class-stripe-api.php:45
+msgid "Get API Keys"
+msgstr "Obtenir des clés API"
+
+#: includes/class-stripe-api.php:49
+msgid "Stripe TEST MODE Enabled: "
+msgstr "MODE TEST Stripe activé:"
+
+#: includes/class-stripe-api.php:49
+msgid " Use these "
+msgstr "Utilisez ceux-ci"
+
+#: includes/class-stripe-api.php:49
+msgid " Test Card Details "
+msgstr "Détails de la carte de test"
+
+#: includes/class-stripe-api.php:49
+msgid " for Testing."
+msgstr "pour tester."
+
+#: includes/class-stripe-api.php:210
+msgid "Please accept the terms and conditions first"
+msgstr "Veuillez d’abord accepter les conditions d’utilisation"
+
+#: includes/class-stripe-api.php:211
+msgid "Please fill in required checkout fields first"
+msgstr "Veuillez remplir tous les champs de paiement requis"
+
+#: includes/class-stripe-api.php:247
+msgid "Pay"
+msgstr "Payer"
+
+#: includes/class-stripe-api.php:290
+msgid "Card Number"
+msgstr "Numéro de la carte"
+
+#: includes/class-stripe-api.php:301
+msgid "Expiry Date"
+msgstr "Date d'expiration"
+
+#: includes/class-stripe-api.php:309
+msgid "Card Code (CVC)"
+msgstr "CVC"
+
+#: includes/class-stripe-api.php:652
+msgid "Admin declined the payment due to Card Restriction."
+msgstr ""
+"L'administrateur a refusé le paiement en raison de la restriction de la "
+"carte."
+
+#: includes/class-stripe-api.php:654
+msgid "Seller declined "
+msgstr "Le vendeur a refusé"
+
+#: includes/class-stripe-api.php:654
+msgid "payment due to Card Restriction. Reload and try with some other Cards"
+msgstr ""
+"paiement en raison de la restriction de la carte. Rechargez et essayez avec "
+"d'autres cartes"
+
+#: includes/class-stripe-api.php:676 includes/class-stripe-checkout.php:433
+msgid "Payment Failed "
+msgstr "Paiement échoué"
+
+#: includes/class-stripe-api.php:676 includes/class-stripe-checkout.php:433
+msgid "Refresh and try again"
+msgstr "Actualisez et réessayez"
+
+#: includes/class-stripe-api.php:975
+#, php-format
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr "Échec de l'authentification Stripe SCA. Les raisons"
+
+#: includes/class-stripe-api.php:976
+msgid "Stripe SCA authentication failed."
+msgstr "Échec de l'authentification Stripe SCA."
+
+#: includes/class-stripe-api.php:1007
+msgid "Need to autherise the payment."
+msgstr "Besoin d'authentifier le paiement."
+
+#: includes/class-stripe-api.php:1047
+msgid "Capture Stripe Payment"
+msgstr "Capture Stripe Payment"
+
+#: includes/class-stripe-api.php:1086
+#: includes/stripe-overview/class-stripe-overview.php:131
+msgid "Capture Status : "
+msgstr "Statut de capture:"
+
+#: includes/class-stripe-api.php:1086
+#: includes/stripe-overview/class-stripe-overview.php:131
+msgid "Charge Status : "
+msgstr "Statut de charge:"
+
+#: includes/class-stripe-checkout.php:20
+msgid "Stripe-Checkout"
+msgstr "Stripe-Checkout"
+
+#: includes/class-stripe-checkout.php:21
+msgid "Pay with Stripe Checkout"
+msgstr "Payer avec Stripe Checkout"
+
+#: includes/class-stripe-checkout.php:36
+#, php-format
+msgid ""
+"You will have to specify an account name in Stripe <a href=\"%s\" target="
+"\"_blank\">Dashboard</a> prior to configuring the settings. All other "
+"WebToffee Stripe general settings can be adjusted <a href=\"%s\">here</a>. "
+msgstr ""
+"Vous devrez spécifier un nom de compte dans Stripe <a href=\"%s\" target="
+"\"_blank\">Dashboard</a> avant de configurer les paramètres. Tous les autres "
+"paramètres généraux de WebToffee Stripe peuvent être modifiés <a href=\"%s"
+"\">ici</a> ."
+
+#: includes/class-stripe-checkout.php:64
+msgid "Enable Stripe Checkout Payment"
+msgstr "Activer le paiement Stripe Checkout"
+
+#: includes/class-stripe-checkout.php:80
+msgid "Secure payment via Stripe checkout."
+msgstr "Paiement sécurisé via Stripe checkout."
+
+#: includes/class-stripe-checkout.php:88
+msgid "Pay via Stripe Checkout"
+msgstr "Paiement via Stripe Checkout"
+
+#: includes/class-stripe-checkout.php:237
+msgid "Total"
+msgstr "Total"
+
+#: includes/class-stripe-checkout.php:269
+#: includes/class-stripe-checkout.php:271
+#: includes/class-stripe-checkout.php:297
+#: includes/class-stripe-checkout.php:329
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+"Erreur %d : impossible de créer la commande. Veuillez essayer de nouveau."
+
+#: includes/class-stripe-checkout.php:583
+msgid ""
+"You have cancelled Stripe Checkout Session. Please try to process your order "
+"again."
+msgstr ""
+"Vous avez annulé la session Stripe Checkout. Veuillez réessayer de traiter "
+"votre commande."
+
+#. translators: Error message text
+#: includes/class-stripe-intent-manager.php:25
+#, php-format
+msgid "Payment verification error: %s"
+msgstr "Erreur de vérification de paiement: %s:"
+
+#: includes/class-stripe-intent-manager.php:76
+msgid "CSRF verification failed."
+msgstr "La vérification CSRF a échoué."
+
+#: includes/class-stripe-intent-manager.php:89
+msgid "Missing order ID for payment confirmation"
+msgstr "ID de commande manquant pour la confirmation du paiement"
+
+#: includes/eh-stripe-settings-page.php:12
+#: includes/eh-stripe-settings-page.php:18
+#: includes/eh-stripe-settings-page.php:158
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/eh-stripe-settings-page.php:17
+msgid "Stripe Overview Page"
+msgstr "Page de présentation de Stripe"
+
+#: includes/eh-stripe-settings-page.php:20
+msgid "Stripe Overview "
+msgstr "Présentation de Stripe"
+
+#: includes/eh-stripe-settings-page.php:35
+msgid "Secure payment via Stripe."
+msgstr "Paiement sécurisé via Stripe."
+
+#: includes/eh-stripe-settings-page.php:42
+msgid "Pay via Stripe"
+msgstr "Payer avec Stripe"
+
+#: includes/eh-stripe-settings-page.php:46
+msgid "Preferred Cards"
+msgstr "Cartes préférées"
+
+#: includes/eh-stripe-settings-page.php:50
+msgid ""
+"Select the card types to display the card logo in the checkout page as "
+"preferred card."
+msgstr ""
+"Sélectionnez les types de cartes pour afficher le logo de la carte dans la "
+"page de paiement comme carte préférée."
+
+#: includes/eh-stripe-settings-page.php:70
+msgid "Stripe Credentials"
+msgstr "Connectez-vous avec Stripe"
+
+#: includes/eh-stripe-settings-page.php:74
+msgid "Transaction Mode"
+msgstr "Mode de transaction"
+
+#: includes/eh-stripe-settings-page.php:77
+msgid "Test Mode"
+msgstr "Mode test"
+
+#: includes/eh-stripe-settings-page.php:78
+msgid "Live Mode"
+msgstr "Mode de production"
+
+#: includes/eh-stripe-settings-page.php:81
+msgid ""
+"Check appropriate Stripe mode is checked in Stripe  <a href=\"https://"
+"dashboard.stripe.com/dashboard\" target=\"_blank\"> Dashboard </a>"
+msgstr ""
+"Vérifier que le mode Stripe approprié est coché dans Stripe <a href="
+"\"https://dashboard.stripe.com/dashboard\" target=\"_blank\">Dashboard</a>"
+
+#: includes/eh-stripe-settings-page.php:86
+msgid "Test Publishable Key"
+msgstr "Clé publique de Test"
+
+#: includes/eh-stripe-settings-page.php:88
+msgid "Enter Stripe Test mode Publishable Key."
+msgstr "Entrez la clé publiable du mode Test Stripe."
+
+#: includes/eh-stripe-settings-page.php:93
+msgid "Test Secret Key"
+msgstr "Clé secrète de Test"
+
+#: includes/eh-stripe-settings-page.php:95
+msgid "Enter Stripe Test mode Secret Key."
+msgstr "Entrez dans le mode Stripe Test Key Secret."
+
+#: includes/eh-stripe-settings-page.php:101
+msgid "Live Publishable Key"
+msgstr "Live Publishable Key"
+
+#: includes/eh-stripe-settings-page.php:103
+msgid "Enter Stripe Live mode Publishable Key."
+msgstr "Entrez la clé publiable du mode Stripe Live."
+
+#: includes/eh-stripe-settings-page.php:108
+msgid "Live Secret Key"
+msgstr "Clé secrète Live"
+
+#: includes/eh-stripe-settings-page.php:110
+msgid "Enter Stripe Live mode Secret Key."
+msgstr "Entrez la clé secrète du mode Stripe Live."
+
+#: includes/eh-stripe-settings-page.php:116
+msgid "Stripe Actions"
+msgstr "Stripe Actions"
+
+#: includes/eh-stripe-settings-page.php:120
+msgid "Capture Payment"
+msgstr "Capturer le paiement"
+
+#: includes/eh-stripe-settings-page.php:121
+msgid "Capture Payment Immediately"
+msgstr "Capturez le paiement immédiatement"
+
+#: includes/eh-stripe-settings-page.php:123
+msgid ""
+"Whether or not to immediately capture the charge.Uncaptured charges will "
+"expire in 7 days."
+msgstr ""
+"Indique s'il faut ou non saisir immédiatement la charge.Les frais non "
+"capturés expireront dans 7 jours."
+
+#: includes/eh-stripe-settings-page.php:128
+msgid "Restrict Cards"
+msgstr "Restreindre les cartes"
+
+#: includes/eh-stripe-settings-page.php:129
+msgid "Restrict Cards except Preferred Cards"
+msgstr "Restreindre les cartes sauf les cartes préférées"
+
+#: includes/eh-stripe-settings-page.php:131
+msgid ""
+"If enabling Restrict Cards, the card which all are mentioned in preferred "
+"cards only can allow for transaction."
+msgstr ""
+"Si vous activez Restreindre les cartes, la carte qui sont toutes mentionnées "
+"dans les cartes préférées uniquement peut autoriser la transaction."
+
+#: includes/eh-stripe-settings-page.php:136
+msgid "Email Transaction Receipt"
+msgstr "Reçu de transaction par courriel"
+
+#: includes/eh-stripe-settings-page.php:137
+msgid "Enable "
+msgstr "Activer"
+
+#: includes/eh-stripe-settings-page.php:139
+msgid ""
+"If enabling Email Transaction Receipt, the transaction receipt will send as "
+"email to the customers by Stripe."
+msgstr ""
+"Si vous activez la réception de transaction par e-mail, la réception de la "
+"transaction sera envoyée par e-mail aux clients par Stripe."
+
+#: includes/eh-stripe-settings-page.php:144
+msgid "Statement Descriptor"
+msgstr "Description au compte"
+
+#: includes/eh-stripe-settings-page.php:145
+msgid ""
+"This may be up to 22 characters. The statement description must contain at "
+"least one letter, may not include ><\"' characters, and will appear on your "
+"customer's statement in capital letters."
+msgstr ""
+"Cela peut comporter jusqu'à 22 caractères. La description du relevé doit "
+"contenir au moins une lettre, ne pas comporter de caractères> <\"et "
+"apparaîtra sur le relevé de votre client en majuscules."
+
+#: includes/eh-stripe-settings-page.php:152
+msgid "Debugging"
+msgstr "Débogage"
+
+#: includes/eh-stripe-settings-page.php:154
+msgid "Enable Logging to save Stripe payment logs into log file."
+msgstr ""
+"Activez la journalisation pour enregistrer les journaux de paiement Stripe "
+"dans le fichier journal."
+
+#: includes/eh-stripe-settings-page.php:157
+msgid "Logging"
+msgstr "Connexion"
+
+#: includes/eh-stripe-settings-page.php:160
+msgid "Success Log File"
+msgstr "Fichier journal de réussite"
+
+#: includes/eh-stripe-settings-page.php:160
+msgid "Failure Log File"
+msgstr "Fichier journal des échecs"
+
+#: includes/stripe-overview/class-overview-table-data.php:33
+#: includes/stripe-overview/class-overview-table-data.php:270
+#: includes/stripe-overview/class-overview-table-data.php:294
+#: includes/stripe-overview/class-overview-table-data.php:315
+msgid "Guest"
+msgstr "Invité"
+
+#: includes/stripe-overview/class-overview-table-data.php:95
+#: includes/stripe-overview/class-overview-table-data.php:289
+#: includes/stripe-overview/class-overview-table-data.php:345
+#: includes/stripe-overview/class-overview-table-data.php:387
+msgid "Refund"
+msgstr "Remboursement"
+
+#: includes/stripe-overview/class-overview-table-data.php:96
+msgid "Full"
+msgstr "Complet"
+
+#: includes/stripe-overview/class-overview-table-data.php:99
+msgid "Capture"
+msgstr "Capturer"
+
+#: includes/stripe-overview/class-overview-table-data.php:114
+msgid "Processing"
+msgstr "En cours"
+
+#: includes/stripe-overview/class-overview-table-data.php:114
+#: includes/stripe-overview/class-overview-table-data.php:117
+msgid "Completed"
+msgstr "Terminé"
+
+#: includes/stripe-overview/class-overview-table-data.php:129
+msgid "TEST MODE"
+msgstr "MODE TEST"
+
+#: includes/stripe-overview/class-overview-table-data.php:139
+#: includes/stripe-overview/class-overview-table-data.php:438
+#: includes/stripe-overview/class-overview-table-data.php:441
+msgid "Status"
+msgstr "Statut"
+
+#: includes/stripe-overview/class-overview-table-data.php:140
+#: includes/stripe-overview/class-overview-table-data.php:439
+msgid "Order"
+msgstr "Commande"
+
+#: includes/stripe-overview/class-overview-table-data.php:141
+msgid "Ship to"
+msgstr "Livrée à"
+
+#: includes/stripe-overview/class-overview-table-data.php:142
+msgid "Price"
+msgstr "Prix"
+
+#: includes/stripe-overview/class-overview-table-data.php:143
+msgid "Payment Action"
+msgstr "Action de paiement"
+
+#: includes/stripe-overview/class-overview-table-data.php:144
+msgid "Actions"
+msgstr "Actions PayPal Express"
+
+#: includes/stripe-overview/class-overview-table-data.php:145
+#: includes/stripe-overview/class-overview-table-data.php:443
+msgid "Date"
+msgstr "Date"
+
+#: includes/stripe-overview/class-overview-table-data.php:158
+msgid "Mark Processing"
+msgstr "Traitement des marques"
+
+#: includes/stripe-overview/class-overview-table-data.php:159
+msgid "Mark On-Hold"
+msgstr "Marquer en attente"
+
+#: includes/stripe-overview/class-overview-table-data.php:160
+msgid "Mark Completed"
+msgstr "Marquage terminé"
+
+#: includes/stripe-overview/class-overview-table-data.php:229
+#: includes/stripe-overview/class-overview-table-data.php:526
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 élément"
+msgstr[1] "%s articles"
+
+#: includes/stripe-overview/class-overview-table-data.php:266
+msgid "Charge"
+msgstr "Charge"
+
+#: includes/stripe-overview/class-overview-table-data.php:310
+#: includes/stripe-overview/class-overview-table-data.php:390
+msgid "Balance"
+msgstr "Solde"
+
+#: includes/stripe-overview/class-overview-table-data.php:320
+msgid "Balance Transaction"
+msgstr "Transaction de solde"
+
+#: includes/stripe-overview/class-overview-table-data.php:355
+msgid "Payment Complete"
+msgstr "Paiement effectué"
+
+#: includes/stripe-overview/class-overview-table-data.php:357
+msgid "Capture Pending"
+msgstr "Capture en attente"
+
+#: includes/stripe-overview/class-overview-table-data.php:368
+msgid "Fully Refunded"
+msgstr "Avoir Total"
+
+#: includes/stripe-overview/class-overview-table-data.php:370
+msgid "Partially Refunded"
+msgstr "Partiellement Remboursé"
+
+#: includes/stripe-overview/class-overview-table-data.php:374
+msgid "Transaction Successful"
+msgstr "Transaction réussie"
+
+#: includes/stripe-overview/class-overview-table-data.php:384
+#: includes/stripe-overview/class-overview-table-data.php:442
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/stripe-overview/class-overview-table-data.php:384
+msgid "Refunded : "
+msgstr "Remboursé:"
+
+#: includes/stripe-overview/class-overview-table-data.php:440
+msgid "Transaction ID"
+msgstr "ID de transaction"
+
+#: includes/stripe-overview/class-stripe-overview.php:274
+msgctxt "Admin menu name"
+msgid "Stripe Overview"
+msgstr "Présentation de Stripe"
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:39
+msgid ""
+"Oops! Stripe Payment for Woocommerce ( Basic ) - Plugin Needs Woocommerce to "
+"Work"
+msgstr ""
+"Oups! Paiement Stripe pour Woocommerce (Basic) - Le plugin a besoin de "
+"Woocommerce pour fonctionner"
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:60
+msgid ""
+"Oops! PREMIUM Version of this Plugin Installed. Please deactivate the "
+"PREMIUM Version before activating BASIC."
+msgstr ""
+"Oups! Version PREMIUM de ce plugin installé. Veuillez désactiver la version "
+"PREMIUM avant d'activer BASIC."
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:91
+msgid "Settings"
+msgstr "Paramètres"
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:92
+msgid "Premium Upgrade"
+msgstr "Mise à niveau Prémium"
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:93
+msgid "Support"
+msgstr "Support"
+
+#: payment-gateway-stripe-and-woocommerce-integration.php:94
+msgid "Review"
+msgstr ""
+"Cochez pour ignorer la page de révision permettant au client de terminer sa "
+"commande."
+
+#: templates/template-frontend-main.php:11
+msgid "Please Wait ..."
+msgstr "S'il vous plaît, attendez ..."
+
+#: templates/template-frontend-main.php:19
+msgid "Overview of Stripe"
+msgstr "Présentation de Stripe"
+
+#: templates/template-frontend-main.php:19
+msgid "Stripe Settings"
+msgstr "Paramètres Stripe"
+
+#: templates/template-frontend-main.php:24
+msgid "Captured"
+msgstr "Capturé"
+
+#: templates/template-frontend-main.php:28
+msgid "Uncaptured "
+msgstr "Non capturé"
+
+#: templates/template-frontend-main.php:32
+msgid "Refund "
+msgstr "Remboursement"
+
+#: templates/template-frontend-main.php:51
+msgid "Provide date range for displaying overview."
+msgstr "Fournissez une plage de dates pour afficher l'aperçu."
+
+#: templates/template-frontend-main.php:126
+msgid "Order Details"
+msgstr "Détails de la commande"
+
+#: templates/template-frontend-main.php:127
+msgid "Transaction Details"
+msgstr "Détails de la Transaction"
+
+#: templates/template-order-overview.php:20
+#: templates/template-stripe-overview.php:20
+msgid "Number of Rows"
+msgstr "Nombre de lignes"
+
+#: templates/template-order-overview.php:21
+#: templates/template-stripe-overview.php:21
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. Plugin Name of the plugin/theme
+msgid "Stripe Payment Gateway for WooCommerce ( Basic )"
+msgstr "Passerelle de paiement Stripe pour WooCommerce (de base)"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://wordpress.org/plugins/payment-gateway-stripe-and-woocommerce-"
+"integration/"
+msgstr ""
+"https://wordpress.org/plugins/payment-gateway-stripe-and-woocommerce-"
+"integration/"
+
+#. Description of the plugin/theme
+msgid "Make your Shop Orders with Credit Cards and Alipay via Stripe."
+msgstr ""
+"Faites vos commandes de magasin avec des cartes de crédit et Alipay via "
+"Stripe."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
+msgstr "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
